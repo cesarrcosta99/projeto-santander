@@ -1,75 +1,63 @@
-
-* {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.caixa {
-    padding: 25px;
+ header{
+    padding: 26px;
+    display: flex;
+    gap: 40px;
+ }
+
+.logo-santander {
+    width: 140px;
 }
 
-.logo {
-    width: 130px; /* largura */
-}
-
-.link-voce {
-    color:  #ff0000;  /* troca a cor do texto */
-    margin-left: 30px;  /* margem do lado esquerdo */
-    font-size: 20px; /* tamanho da fonte */
-    font-weight: 700; /* grossura da fonte */
+a{
     cursor: pointer;
 }
 
-.link-voce:hover {
+.link-1{
+    color:#ED0000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.link-2 {
+    font-size: 18px;
+}
+
+.link-1:hover {
     text-decoration: underline;
 }
 
-
-.link-empresa {
-    color:  #000000;
-    margin-left: 30px;  /* margem do lado esquerdo */
-    font-size: 20px; /* tamanho da fonte */
-    cursor: pointer; /* troca o cursor do mouse */
+.link-2:hover {
+    text-decoration:underline ;
 }
 
-.link-empresa:hover {
-    text-decoration: underline;
-}
-
-.background {
+.imagem-principal {
     width: 100%;
 }
 
 h3 {
-    margin-left: 200px;
-    margin-top: 60px;  /* margem em cima */
-    font-size: 40px;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
+    margin-top:3rem;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 li {
-    height: 150px;  /* altura do elemento */
-    width: 190px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding-top: 30px;
     display: inline-block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+    cursor: pointer;
 }
 
-.imagem-produtos {
-    width: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-p {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
+li:hover {
+    color: #ED0000;
+    box-shadow:blue 0px 30px 50px 10px; ;
 }
