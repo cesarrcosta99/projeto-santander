@@ -48,6 +48,11 @@ h3 {
     font-weight: 400;
 }
 
+ul {
+    display: flex;
+    justify-content: center;
+}
+
 li {
     display: inline-block;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -55,9 +60,14 @@ li {
     margin-bottom: 70px;
     margin-left: 80px;
     cursor: pointer;
+    height: 140px;
 }
 
 li:hover {
     color: #ED0000;
     box-shadow:blue 0px 30px 50px 10px; ;
+}
+
+.imagem-produtos {
+    width: 60px;
 }
